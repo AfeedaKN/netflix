@@ -14,12 +14,12 @@ const Player = () => {
     published_at: "",
     typeof: ""
   })
-
+console.log("it was the api data",apiData)
   const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZjNhYWQwODkwOTlmMDMwZmY3NDY2YjZmZGIxYzFlYyIsIm5iZiI6MTc3MDc3OTkwNS4zNTM5OTk5LCJzdWIiOiI2OThiZjUwMThkNTRhYTFlNzJkNTQxNzUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Pxcqs4xC1OcgMyLmafBKwf2dSOscCae9WcsjEGCJ7KI'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZjQxZTZhYTEyYjJmNGRkNjlkNTFlZDhkZTU4NTkxMSIsIm5iZiI6MTc4MTUwMjcwOC40MjUsInN1YiI6IjZhMmY5MmY0Nzc4NmRhNTExZmM0NzU2OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QU1vx0vA3UFrH-zHoG0jv6RzDSURvQBN1P36NMywL_E'
     }
   };
 
